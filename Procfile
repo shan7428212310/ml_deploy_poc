@@ -1,1 +1,1 @@
-web: python uber_data_analysis.py
+web: gunicorn myapp:uber_data_analysis
